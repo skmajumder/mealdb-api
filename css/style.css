@@ -3,8 +3,11 @@
     font-size: 2.5rem;
 }
 
-#btn-signup {
+#btn-signup,
+#btn-show-all,
+#btn-subscribe {
     font-size: 1.8rem;
+    border-radius: 8px
 }
 
 /* Banner */
@@ -38,4 +41,52 @@
     border-radius: 8px;
     font-size: 2rem;
     margin-left: -18px;
+}
+
+/* Card Design */
+
+.card-title {
+    font-size: 2.5rem;
+    line-height: 38px;
+    color: #403F3F;
+}
+
+.card-text {
+    color: #706F6F;
+}
+
+.card-text,
+#food-details {
+    font-size: 1.8rem;
+    line-height: 30px;
+}
+
+#food-details {
+    color: #FFC107;
+}
+
+/* Footer */
+
+.footer {
+    padding: 12rem 0;
+    background: rgba(255, 193, 7, 0.05);
+}
+
+.subscribe-text {
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #706F6F;
+}
+
+.footer-nav li a {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 50px;
+    color: #403F3F;
+}
+
+#email{
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.6rem;
 }
